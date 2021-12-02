@@ -1,0 +1,42 @@
+.crt
+{
+    width: 200px;
+    border: solid black;
+    padding: 10px;
+}
+.img
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(14, 145, 206);
+  
+}
+.img p
+{
+    text-align: center;
+    color:black;
+    font-size: 21px;
+
+
+    
+}
+.pi
+{
+    display: block;
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 45%;
+
+}
+.rrp
+{color: grey;}
+span
+{
+    text-decoration: underline;
+}
+.saving
+{
+    text-transform: capitalize;
+    color: rgb(40, 209, 40);
+}
