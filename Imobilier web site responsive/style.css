@@ -68,7 +68,6 @@ a
     width: 50%;
     border: 1px black;
     height: 100%;
-   
     background-color:#FFC400;
     border-radius: 84px 0  0 84px;
    
@@ -91,7 +90,7 @@ a
   form
   {
       text-align:center;
-      padding:10%;
+      padding:7%;
   }
   label
   {
@@ -101,15 +100,19 @@ a
   }
   input[type="text"],input[type="number"]
   {
-    margin: 20px;
+    margin:10px;
     border: none;
-    width: 200px;
+    width: 300px;
     height: 30px;
     border-radius: 20px;
   }
   input[type="radio"]
   {
       margin: 0 40px;
+  }
+  #pp
+  {
+      margin-right: 20px;
   }
   button
   {
@@ -127,7 +130,190 @@ a
 
 
 
+  
+
+
+
+
  
+ @media screen and (max-width: 600px)
+   {
+       .logo
+       {
+           width: 20%;
+       }
+     .nav li 
+    {
+        padding: 20px 10px 10px 10px;
+    } 
+    #first-li
+    {
+        margin-left: 50px;
+    }
+    .parent-section
+    {   
+        height: 650px;
+        margin: auto;
+        margin-top: 25px;
+        border-radius: 42px;
+        margin-bottom: 100px;
+  
+    }
+    .first-child
+    {position: absolute;
+      border: 1px black;
+      border-radius: 42px 0  0 42px;
+     
+    }
+  
+    .second-child
+    {
+        background-image: url(pics/pic.jpg);
+        border-radius:0 42px 42px 0 ;
+    }
+    .second-child img
+    {
+        width: 100%;
+    }
+    label
+    {
+        display: block;
+        width: 100%;
+        margin: auto;
+        font-size: 15px;
+    }
+    input[type="text"],input[type="number"]
+    {
+      margin:5px;
+      display: block;
+      width: 200px;
+      height: 15px;
+      border-radius: 10px;
+    }
+    input[type="radio"]
+    {
+        margin: 0 20px;
+    }
+    button
+    {
+        width: 80px;
+        font-size: 15px;
+        padding: 15px;
+        margin: 12px auto;
+        border-radius: 10px;
+    }
+ 
+    #tt{
+        margin:20px 15px;
+
+    }
+    #pp
+    {
+        margin-top:-20px;
+        margin-bottom: 10px;
+    }
+    #rdp
+    {margin:5px 0;}
+  
+
+
+   }
+
+
+
+
+     
+  @media screen and (max-width: 400px)
+   {
+
+       .logo
+       {
+           width: 20%;
+       }
+       .countainer
+       {
+           width: 100%;
+       }
+   
+     .nav li 
+    {
+        padding: 20px 10px 10px 10px;
+    } 
+    #first-li
+    {
+        margin-left: 50px;
+    }
+    .parent-section
+    {   
+        height: 650px;
+        margin: auto;
+        margin-top: 25px;
+        border-radius: 20px;
+        margin-bottom: 100px;
+  
+    }
+    .first-child
+    {position: absolute;
+      border: 1px black;
+      border-radius: 20px 0  0 20px;
+     
+    }
+  
+    .second-child
+    {
+        background-image: url(pics/pic.jpg);
+        border-radius:0 20px 20px 0 ;
+    }
+    .second-child img
+    {
+        width: 100%;
+    }
+    label
+    {
+        display: block;
+        width: 100%;
+        margin: auto;
+        font-size: 15px;
+    }
+    input[type="text"],input[type="number"]
+    {
+      margin:5px 20px;
+      display: block;
+      width: 100px;
+      height: 20px;
+      border-radius: 10px;
+    }
+    input[type="radio"]
+    {
+        margin: 0 20px;
+    }
+    button
+    {
+        width: 70px;
+        font-size: 10px;
+        padding: 10px;
+        margin: 12=0px auto;
+        border-radius: 7px;
+    }
+ 
+    #tt{
+        margin:20px 15px;
+
+    }
+    #pp
+    {
+        margin-top:-20px;
+        margin-bottom: 10px;
+    }
+    #rdp
+    {margin:5px 0;}
+  
+
+
+   }
+
+
+   
 
 
   
