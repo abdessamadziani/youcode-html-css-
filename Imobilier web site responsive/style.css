@@ -160,16 +160,19 @@ a
   
     }
     .first-child
-    {position: absolute;
+     {position: absolute;
       border: 1px black;
-      border-radius: 42px 0  0 42px;
+      border-radius: 42px 0  0 42px; 
+      width: 100%;
      
     }
   
     .second-child
     {
-        background-image: url(pics/pic.jpg);
-        border-radius:0 42px 42px 0 ;
+        /* background-image: url(pics/pic.jpg);
+        border-radius:0 42px 42px 0 ; */
+        display: none;
+
     }
     .second-child img
     {
@@ -182,12 +185,20 @@ a
         margin: auto;
         font-size: 15px;
     }
-    input[type="text"],input[type="number"]
+    /* input[type="text"],input[type="number"]
     {
       margin:5px;
       display: block;
       width: 200px;
       height: 15px;
+      border-radius: 10px;
+    } */
+    input[type="text"],input[type="number"]
+    {
+      margin:5px auto;
+      display: block;
+      width: 100px;
+      height: 20px;
       border-radius: 10px;
     }
     input[type="radio"]
@@ -256,13 +267,16 @@ a
     {position: absolute;
       border: 1px black;
       border-radius: 20px 0  0 20px;
+      width: 100%;
      
     }
   
     .second-child
     {
-        background-image: url(pics/pic.jpg);
-        border-radius:0 20px 20px 0 ;
+        display: none;
+
+
+        /* border-radius:0 20px 20px 0 ; */
     }
     .second-child img
     {
@@ -277,7 +291,7 @@ a
     }
     input[type="text"],input[type="number"]
     {
-      margin:5px 20px;
+      margin:5px auto;
       display: block;
       width: 100px;
       height: 20px;
