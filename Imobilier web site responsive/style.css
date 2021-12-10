@@ -106,6 +106,7 @@ a
     height: 30px;
     border-radius: 20px;
   }
+
   input[type="radio"]
   {
       margin: 0 40px;
@@ -127,6 +128,10 @@ a
       border: none;
       border-radius: 20px;
   }
+  a
+  {
+      font-size: 18px;
+  }
 
 
 
@@ -144,7 +149,7 @@ a
        }
      .nav li 
     {
-        padding: 20px 10px 10px 10px;
+        padding: 20px 6px 10px 6px;
     } 
     #first-li
     {
@@ -197,8 +202,8 @@ a
     {
       margin:5px auto;
       display: block;
-      width: 100px;
-      height: 20px;
+      width: 175px;
+      height: 40px;
       border-radius: 10px;
     }
     input[type="radio"]
@@ -225,6 +230,10 @@ a
     }
     #rdp
     {margin:5px 0;}
+    a
+    {
+        font-size: 12px;
+    }
   
 
 
@@ -248,7 +257,7 @@ a
    
      .nav li 
     {
-        padding: 20px 10px 10px 10px;
+        padding: 20px 6px 10px 6px;
     } 
     #first-li
     {
@@ -293,8 +302,8 @@ a
     {
       margin:5px auto;
       display: block;
-      width: 100px;
-      height: 20px;
+      width: 175px;
+      height: 40px;
       border-radius: 10px;
     }
     input[type="radio"]
@@ -321,6 +330,10 @@ a
     }
     #rdp
     {margin:5px 0;}
+    a
+    {
+        font-size: 12px;
+    }
   
 
 
